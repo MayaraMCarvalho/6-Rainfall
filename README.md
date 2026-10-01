@@ -128,23 +128,24 @@ Este projeto requer a ISO do RainFall fornecida pela 42.
   ssh level00@<IP_DA_VM> -p 4242
   ```
 
-> A senha inicial para o level00 é level00.
+> A senha inicial para o level00 é `level00`.
 
 2. **Fluxo de Resolução**
 1.	Analise o binário fornecido e seu código-fonte (se disponível).
 2.	Use o GDB para mapear a stack e encontrar o vetor de ataque.
-3.	Escreva um script (ou payload direto) que explore a falha para agir como flagXX.
-4.	Leia o arquivo /home/flagXX/.pass.
+3.	Escreva um script (ou payload direto) que explore a falha para agir como `flagXX`.
+4.	Leia o arquivo `/home/flagXX/.pass`.
 5.	Saia e conecte-se no próximo nível via SSH com a nova senha.
 
 ---
 
 ## ⚠️ Disclaimer
-Todo o conteúdo deste repositório foi desenvolvido para fins estritamente educacionais como parte do currículo da escola 42. As técnicas demonstradas aqui (exploração de binários, bypass de mitigações de memória) são realizadas em um ambiente deliberadamente vulnerável e isolado. O uso dessas técnicas em sistemas reais sem autorização explícita é ilegal e antiético.
+Todo o conteúdo deste repositório foi desenvolvido para fins estritamente **educacionais** como parte do currículo da escola 42. As técnicas demonstradas aqui (exploração de binários, bypass de mitigações de memória) são realizadas em um ambiente deliberadamente vulnerável e isolado. O uso dessas técnicas em sistemas reais sem autorização explícita é ilegal e antiético.
 
 ---
 
 ## 👩🏻 Autora
+
 **Mayara Carvalho**
 <br>
 [:octocat: @MayaraMCarvalho](https://github.com/MayaraMCarvalho) | 42 Login: `macarval`
